@@ -85,7 +85,8 @@ h1 {
 
 .portrait {
   width: 210px;
-  height: 210px;
+  height: auto;
+  aspect-ratio: 0.72;
   object-fit: contain;
   object-position: center top;
   border: 1px solid var(--line);
@@ -335,7 +336,7 @@ address {
 
   .portrait {
     width: 160px;
-    height: 160px;
+    height: auto;
     grid-row: 1;
   }
 
