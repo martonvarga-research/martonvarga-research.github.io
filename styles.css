@@ -86,7 +86,8 @@ h1 {
 .portrait {
   width: 210px;
   height: 210px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center top;
   border: 1px solid var(--line);
   border-radius: 6px;
   background: #fff;
