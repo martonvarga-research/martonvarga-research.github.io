@@ -236,10 +236,41 @@ p {
 }
 
 .cv-links,
-.contact-list {
+.contact-list,
+.profile-links {
   display: grid;
   gap: 12px;
   justify-items: start;
+}
+
+.profile-links {
+  width: min(100%, 560px);
+  gap: 10px;
+}
+
+.profile-links a {
+  display: grid;
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.profile-links a:hover {
+  border-color: var(--accent);
+}
+
+.link-label {
+  color: var(--accent);
+  font-weight: 850;
+}
+
+.link-note {
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 .button {
