@@ -21,7 +21,9 @@ function applyFilter(filter) {
     group.hidden = !hasVisiblePaper;
   });
 
-  emptyState.hidden = visibleCount !== 0 || filter !== "media";
+  if (emptyState) {
+    emptyState.hidden = visibleCount !== 0 || filter !== "media";
+  }
 }
 
 filterButtons.forEach((button) => {
