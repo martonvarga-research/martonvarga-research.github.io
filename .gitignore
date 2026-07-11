@@ -1,0 +1,7 @@
+# Local working material that should not be published to GitHub Pages.
+local-materials/
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
+desktop.ini
