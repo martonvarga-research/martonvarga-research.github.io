@@ -254,6 +254,13 @@ p {
   justify-items: start;
 }
 
+.contact-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(260px, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
 .profile-links {
   width: min(100%, 560px);
   gap: 10px;
@@ -327,7 +334,8 @@ address {
   .masthead,
   .section-title,
   .two-column,
-  .paper-group {
+  .paper-group,
+  .contact-panel {
     grid-template-columns: 1fr;
   }
 
