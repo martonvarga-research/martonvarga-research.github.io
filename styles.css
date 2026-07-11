@@ -222,6 +222,10 @@ p {
   font-size: 0.97rem;
 }
 
+.paper-note {
+  color: var(--green) !important;
+}
+
 .links,
 .media {
   color: var(--ink);
