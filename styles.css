@@ -142,6 +142,14 @@ p {
   margin: 0 0 12px;
 }
 
+.bio-copy {
+  max-width: 720px;
+}
+
+.bio-copy p {
+  color: var(--muted);
+}
+
 .filters {
   display: flex;
   flex-wrap: wrap;
